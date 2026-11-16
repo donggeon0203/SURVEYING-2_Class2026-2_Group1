@@ -211,7 +211,9 @@ ASOS 원본 일강수량의 공란 **689건**은 기상청의 강수량 기입 �
 
 #### 6.1.3 GPM-IMERG와 ASOS 일강수량 산점도
 
-![그림 1. GPM-IMERG와 ASOS 일강수량의 전체 산점도. 전체 범위(왼쪽), 0~50mm 확대(오른쪽).](figures/subgoal1/figure1_scatter.png)
+
+![그림 1. GPM-IMERG와 ASOS 전체 일강수량 산점도](figures/figure1_scatter.png)
+
 
 *그림 1. 2020~2024년 6월부터 8월까지 부산·울산·창원 전체 1,380건의 ASOS 관측 일강수량(가로축)과 GPM-IMERG 추정 일강수량(세로축). 점선은 두 값이 같은 1:1 기준선(y=x)이다.*
 
@@ -219,7 +221,9 @@ ASOS 원본 일강수량의 공란 **689건**은 기상청의 강수량 기입 �
 
 #### 6.1.4 전체 편차 분포와 극단 사례
 
-![그림 2. 전체 GPM-IMERG와 ASOS 일강수량 편차 분포.](figures/subgoal1/figure2_bias_distribution.png)
+
+![그림 2. 전체 일강수량 편차 분포](figures/figure2_bias_distribution.png)
+
 
 *그림 2. 전체 지점·일 자료에서 산출한 편차(GPM − ASOS)의 분포. 양의 편차는 위성 과대추정, 음의 편차는 위성 과소추정을 뜻한다.*
 
@@ -234,7 +238,9 @@ ASOS 원본 일강수량의 공란 **689건**은 기상청의 강수량 기입 �
 | MAE (mm) | **5.56** | **12.80** |
 | RMSE (mm) | **15.00** | **23.51** |
 
-![그림 3. 전체 관측일과 ASOS 강수일만 포함한 경우의 통계 비교.](figures/subgoal1/figure3_sensitivity.png)
+
+![그림 3. 무강수일 포함 여부에 따른 통계 비교](figures/figure3_sensitivity.png)
+
 
 *보조그림 1. 전체 지점·일 자료와 ASOS 관측 강수일만 선택한 자료의 일치도 및 오차지표 비교.*
 
