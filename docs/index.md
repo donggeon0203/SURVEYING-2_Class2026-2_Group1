@@ -100,27 +100,27 @@ GPM-IMERG와 지상 강수자료의 비교는 여러 선행연구에서 수행�
 
 <a id="ref-9"></a>[9] 대한토목학회 학술발표(2017), 수자원 이용현황과 강우 집중. [원문](https://koreascience.kr/article/CFKO201732863556270.pdf)
 
-<a id="ref-9"></a>[10] 노컷뉴스, 쩍쩍 갈라진 저수지, 짙어진 녹조…경남. [원문](https://nocutnews.co.kr/news/6561251)
+<a id="ref-10"></a>[10] 노컷뉴스, 쩍쩍 갈라진 저수지, 짙어진 녹조…경남. [원문](https://nocutnews.co.kr/news/6561251)
 
-<a id="ref-9"></a>[11] 김덕환 외(2023), 관개회귀수량 산정방법론, 한국수자원학회 학술발표회. [원문](https://koreascience.or.kr/article/CFKO202323654233246.pdf)
+<a id="ref-11"></a>[11] 김덕환 외(2023), 관개회귀수량 산정방법론, 한국수자원학회 학술발표회. [원문](https://koreascience.or.kr/article/CFKO202323654233246.pdf)
 
-<a id="ref-9"></a>[12] 수력발전 비중(KOSIS 2023 인용), 한국방재학회 등. [원문](https://koreascience.kr/article/JAKO202423957696572.pdf)
+<a id="ref-12"></a>[12] 수력발전 비중(KOSIS 2023 인용), 한국방재학회 등. [원문](https://koreascience.kr/article/JAKO202423957696572.pdf)
 
-<a id="ref-9"></a>[13] 기상청 기상자료개방포털, 「종관기상관측(ASOS)자료 및 지점정보」. [원문](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do)
+<a id="ref-13"></a>[13] 기상청 기상자료개방포털, 「종관기상관측(ASOS)자료 및 지점정보」. [원문](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do)
 
-<a id="ref-9"></a>[14] NASA, How is GPM data used in real-world application?. [원문](https://gpm.nasa.gov/resources/faq/how-gpm-data-used-real-world-applications)
+<a id="ref-14"></a>[14] NASA, How is GPM data used in real-world application?. [원문](https://gpm.nasa.gov/resources/faq/how-gpm-data-used-real-world-applications)
 
-<a id="ref-9"></a>[15] NASA(2023), *IMERG V07 Technical Documentation*. [원문](https://gpm.nasa.gov/resources/documents/imerg-v07-technical-documentation)
+<a id="ref-15"></a>[15] NASA(2023), *IMERG V07 Technical Documentation*. [원문](https://gpm.nasa.gov/resources/documents/imerg-v07-technical-documentation)
 
-<a id="ref-9"></a>[16] Google Earth Engine Data Catalog, *NASA/GPM_L3/IMERG_V07*. [원문](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07)
+<a id="ref-16"></a>[16] Google Earth Engine Data Catalog, *NASA/GPM_L3/IMERG_V07*. [원문](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07)
 
-<a id="ref-9"></a>[17] 이주원·이은희(2018), 「동아시아 및 남한 지역에서의 Integrated MultisatellitE Retrievals for GPM (IMERG) 일강수량의 지상관측 검증」, 『대기』, 28(3), 273–289. [원문](https://doi.org/10.14191/Atmos.2018.28.3.273)
+<a id="ref-17"></a>[17] 이주원·이은희(2018), 「동아시아 및 남한 지역에서의 Integrated MultisatellitE Retrievals for GPM (IMERG) 일강수량의 지상관측 검증」, 『대기』, 28(3), 273–289. [원문](https://doi.org/10.14191/Atmos.2018.28.3.273)
 
-<a id="ref-9"></a>[18] 백종진 외(2018), 「GPM 위성 강우자료의 검증과 지상관측 자료를 통한 강우 보정 기법」, 『한국수자원학회논문집』, 51(2). [원문](https://doi.org/10.3741/JKWRA.2018.51.2.131)
+<a id="ref-18"></a>[18] 백종진 외(2018), 「GPM 위성 강우자료의 검증과 지상관측 자료를 통한 강우 보정 기법」, 『한국수자원학회논문집』, 51(2). [원문](https://doi.org/10.3741/JKWRA.2018.51.2.131)
 
-<a id="ref-9"></a>[19] 정임국 외(2024), *Accuracy Assessment of Precipitation Products from GPM IMERG and CAPPI Ground Radar over South Korea*, 『대한원격탐사학회지』, 40(3), 269–274. [원문](https://doi.org/10.7780/kjrs.2024.40.3.3)
+<a id="ref-19"></a>[19] 정임국 외(2024), *Accuracy Assessment of Precipitation Products from GPM IMERG and CAPPI Ground Radar over South Korea*, 『대한원격탐사학회지』, 40(3), 269–274. [원문](https://doi.org/10.7780/kjrs.2024.40.3.3)
 
-<a id="ref-9"></a>[20] 부산지방기상청(2021.06.09), 「신평년(1991-2020년) 대비 최근 10년(2011-2020년) 여름철 부울경 기후특성」, 표 11·17. [보도자료 및 PDF](https://www.kma.go.kr/busan/html/news/notice_view.jsp?articleno=11651&boardId=press2&pageNo=1)
+<a id="ref-20"></a>[20] 부산지방기상청(2021.06.09), 「신평년(1991-2020년) 대비 최근 10년(2011-2020년) 여름철 부울경 기후특성」, 표 11·17. [보도자료 및 PDF](https://www.kma.go.kr/busan/html/news/notice_view.jsp?articleno=11651&boardId=press2&pageNo=1)
 
 ## 2. 연구 질문 {#question}
 
