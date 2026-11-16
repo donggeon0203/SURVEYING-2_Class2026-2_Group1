@@ -120,7 +120,7 @@ GPM-IMERG와 지상 강수자료의 비교는 여러 선행연구에서 수행�
 
 <a id="ref-9"></a>[19] 정임국 외(2024), *Accuracy Assessment of Precipitation Products from GPM IMERG and CAPPI Ground Radar over South Korea*, 『대한원격탐사학회지』, 40(3), 269–274. [원문](https://doi.org/10.7780/kjrs.2024.40.3.3)
 
-<a id="ref-9"></a>[20] 부산지방기상청(2021.06.09), 「신평년(1991~2020년) 대비 최근 10년(2011~2020년) 여름철 부울경 기후특성」, 표 11·17. [보도자료 및 PDF](https://www.kma.go.kr/busan/html/news/notice_view.jsp?articleno=11651&boardId=press2&pageNo=1)
+<a id="ref-9"></a>[20] 부산지방기상청(2021.06.09), 「신평년(1991-2020년) 대비 최근 10년(2011-2020년) 여름철 부울경 기후특성」, 표 11·17. [보도자료 및 PDF](https://www.kma.go.kr/busan/html/news/notice_view.jsp?articleno=11651&boardId=press2&pageNo=1)
 
 ## 2. 연구 질문 {#question}
 
