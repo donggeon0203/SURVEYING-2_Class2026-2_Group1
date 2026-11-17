@@ -142,7 +142,8 @@ GPM-IMERG와 지상 강수자료의 비교는 여러 선행연구에서 수행�
 - **학술적 연구 질문:** ASOS 관측 일강수량을 기준으로 강수 규모를 구분했을 때, GPM-IMERG와 ASOS 간의 편차는 강수 규모에 따라 어떠한 변화 양상을 보이며, 이러한 변화는 부산·울산·창원 관측지점별로 어떻게 다른가?
 
 ## 3. 연구 목적 {#objectives}
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/d109391f-62c9-4c22-8dcb-34e250bce53a" />
+<img width="1670" height="941" alt="figure4_research_questions_v2" src="https://github.com/user-attachments/assets/ec6e305c-e294-4f88-b7c2-f8a530d2944e" />
+
 *그림 4. 연구질문과 세부연구목적의 대응 관계 및 전체 연구 구성. 전반적인 일치도와 편차 산정(세부목적 1)을 시작으로 관측지점별 편차 특성 비교(세부목적 2), 강수 규모에 따른 지점별 편차 변화 분석(세부목적 3)으로 연구를 구체화한 흐름을 나타낸다.*
 
 ### 3.1 전체 연구 목적
