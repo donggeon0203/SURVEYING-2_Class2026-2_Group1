@@ -260,7 +260,7 @@ GPM-IMERG는 점이 아닌 약 11 km 격자의 추정값이므로 두 자료의 
 동일 관측일의 두 값을 짝지어(asos_mm_filled, gpm_cal_mm) 다음 지표를 계산하였다. 편차는 공통 통합자료의 정의와 같이 GPM - ASOS이다.
 
 * Bias = (1/n) × ∑(GPMᵢ - ASOSᵢ)
-* MAE = (1/n) × ∑|GPMᵢ - ASOSᵢ|
+* MAE = (1/n) × ∑ abs(GPMᵢ - ASOSᵢ)
 * RMSE = √[(1/n) × ∑(GPMᵢ - ASOSᵢ)²]
 * r = corr(ASOS, GPM)
 
