@@ -211,7 +211,7 @@ GPM-IMERG 격자값 추출에 사용한 ASOS 관측소 좌표는 다음과 같�
 
 NASA GPM-IMERG V07(Integrated Multi-satellitE Retrievals for GPM, Release 07)을 Google Earth Engine의 `NASA/GPM_L3/IMERG_V07`에서 불러왔다. 자료 제공처는 NASA 고다드 지구과학 자료정보서비스센터(GES DISC)이며, 여러 위성의 마이크로파·적외선 관측을 결합해 전 지구 격자의 강수량을 추정하는 자료이다. 원자료의 공간해상도는 0.1°×0.1°이고 Earth Engine에서는 픽셀 크기 11,132 m로 제공된다. 연구 지역(북위 약 35°)에서는 위도 방향 약 11 km, 경도 방향 약 9 km에 해당하므로 격자가 정사각형이 아니다. 시간해상도는 30분이며 강수율(mm/hr) 단위이다.
 
-보정 강수(`precipitation`)를 주 분석에, 비보정 강수(`precipitationUncal`)를 비교용으로 사용하였다. 각 관측소 좌표가 포함된 0.1° 격자의 픽셀값을 Google Earth Engine의 `ee.Reducer.first()`로 추출하였으며, 추출 설정은 `scale=11132`(m), `EPSG:4326`을 사용하였다.
+보정 강수(`precipitation`)를 주 분석 자료로 사용하였으며, 비보정 강수(`precipitationUncal`)도 함께 추출하여 공통 통합자료에 포함하였다. 각 관측소 좌표가 포함된 0.1° 격자의 픽셀값을 Google Earth Engine의 `ee.Reducer.first()`로 추출하였으며, 추출 설정은 `scale=11132`(m), `EPSG:4326`을 사용하였다.
 
 ASOS 일강수량과 동일하게 한국시간(KST) 00:00~다음 날 00:00을 하루로 정의하였다. 이를 위해 GPM-IMERG의 UTC 기준 시간을 KST 날짜에 맞추어, 해당 KST 날짜의 전날 UTC 15:00부터 당일 UTC 15:00 직전까지의 30분 간격 자료 48개를 집계하였다(코드상 날짜 경계에 `.advance(-9, 'hour')` 적용).
 
