@@ -227,24 +227,14 @@ ASOS 일강수량과 동일하게 한국시간(KST) 00:00~다음 날 00:00을 �
 
 원본 ASOS·GPM-IMERG 자료를 수집한 뒤 전처리와 검증을 거쳐 공통 통합자료(마스터 파일)를 구축하였다. 두 자료를 지점·날짜 기준으로 결합하여 1,380행 16개 변수의 파일(`MASTER_GPM_ASOS_2020_2024_JJA_1380_corrected.csv`)을 만들었으며, 부산 460행, 울산 460행, 창원 460행으로 구성된다. 결합 시 누락이나 중복 없이 1,380행이 모두 대응되었다. 세부목적 1·2·3은 모두 이 공통 통합자료를 기준으로 분석하였다. 이 파일은 강수 규모 구간의 경계값에 해당하는 자료 2건(창원 2020-07-14의 10.0 mm, 부산 2021-06-15의 30.0 mm)의 `rain_category` 분류를 수정한 최종본이며, 기존 마스터 파일과 비교했을 때 해당 2건의 강수 구간 분류 외 다른 변수값은 변경되지 않았다.
 
-| **구분** | **변수명** | **의미** |
+| 구분 | 변수명 | 의미 |
 |:---|:---|:---|
-| 날짜·지점 | `year` | 연도 |
-| 날짜·지점 | `month` | 월 |
-| 날짜·지점 | `stn` | ASOS 지점번호 |
-| 날짜·지점 | `name_kr` | 관측지점명 |
-| 날짜·지점 | `date_kst` | 날짜 (KST 기준) |
-| ASOS 자료 | `temp_avg_c` | ASOS 일평균기온 (°C) |
-| ASOS 자료 | `asos_mm_raw` | ASOS 일강수량 원값 (mm) |
-| ASOS 자료 | `asos_mm_filled` | ASOS 일강수량의 빈칸을 0으로 처리한 값 (mm) |
+| 날짜·지점 | `year`, `month`, `stn`, `name_kr`, `date_kst` | 연도, 월, ASOS 지점번호, 관측지점명, 날짜(KST 기준) |
+| ASOS 자료 | `temp_avg_c`, `asos_mm_raw`, `asos_mm_filled` | 일평균기온(°C), 일강수량 원값 및 공란 0 mm 처리값 |
 | 강수 규모 | `rain_category` | ASOS 일강수량 기준 강수 규모 구분 |
-| GPM 자료 | `gpm_cal_mm` | GPM-IMERG 보정 일강수량 (mm) |
-| GPM 자료 | `gpm_uncal_mm` | GPM-IMERG 비보정 일강수량 (mm) |
+| GPM 자료 | `gpm_cal_mm`, `gpm_uncal_mm` | GPM-IMERG 보정·비보정 일강수량(mm) |
 | 자료 검증 | `half_hour_count` | 하루 집계에 사용된 30분 간격 자료 수 |
-| 오차 지표 | `bias_cal` | 보정 자료 편차 (GPM − ASOS) |
-| 오차 지표 | `abs_err_cal` | 보정 자료 절대오차 |
-| 오차 지표 | `sq_err_cal` | 보정 자료 제곱오차 |
-| 오차 지표 | `bias_uncal` | 비보정 자료 편차 (GPM − ASOS) |
+| 오차 지표 | `bias_cal`, `abs_err_cal`, `sq_err_cal`, `bias_uncal` | 보정 자료의 편차·절대오차·제곱오차 및 비보정 자료의 편차(GPM − ASOS) |
 
 ### 4.5 결측 및 품질 관리
 
