@@ -12,6 +12,24 @@ badge: "연구배경 수정본"
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #d5d9de !important;
+  padding: 9px 12px !important;
+  vertical-align: middle;
+}
+
+table th {
+  background-color: #f5f6f8;
+}
+</style>
+
 ## 초록
 
 *작성 예정 — 분석 후 실제 결과를 바탕으로 작성*
