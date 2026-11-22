@@ -8,6 +8,10 @@ status: "연구배경 수정본 검토 중"
 badge: "연구배경 수정본"
 ---
 
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 ## 초록
 
 *작성 예정 — 분석 후 실제 결과를 바탕으로 작성*
