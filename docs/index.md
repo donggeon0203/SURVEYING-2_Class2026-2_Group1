@@ -224,7 +224,7 @@ GPM-IMERG 격자값 추출에 사용한 ASOS 관측소 좌표는 다음과 같�
 | **창원** | `155` | `35.17019° N` | `128.57282° E` |
 
 <p align="center">
-  <img src="./figures/asos_station_map.png" alt="부산·울산·창원 ASOS 관측지점 위치도" width="65%">
+  <img src="./figures/asos_station_map.png" alt="부산·울산·창원 ASOS 관측지점 위치도" width="45%">
 </p>
 
 *그림 4.1.1. 부산(159), 울산(152), 창원(155)의 ASOS 관측지점 위치를 나타낸 개념도.*
