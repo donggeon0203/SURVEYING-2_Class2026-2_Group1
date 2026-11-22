@@ -221,11 +221,11 @@ ASOS 일강수량과 동일하게 한국시간(KST) 00:00~다음 날 00:00을 �
 
 원자료의 강수율 단위는 mm/hr이므로 각 30분 간격 강수율에 0.5시간을 곱한 값을 모두 합산하여 일 누적 강수량(mm)으로 환산하였다. 산출식은 다음과 같다.
 
-\[
-\mathrm{GPM}_d = \sum_{j=1}^{48}\left(R_{d,j}\times0.5\,\mathrm{h}\right)
-\]
+$$
+\mathrm{GPM}_d = \sum_{j=1}^{48}\left(R_{d,j}\times 0.5\,\mathrm{h}\right)
+$$
 
-여기서 \(\mathrm{GPM}_d\)는 KST 기준 날짜 \(d\)의 GPM-IMERG 일강수량(mm), \(R_{d,j}\)는 해당 날짜의 \(j\)번째 30분 간격 강수율(mm/hr)이다. 각 강수율에 0.5시간을 곱해 48개를 합산하였다. 공통 통합자료의 `half_hour_count`를 확인한 결과, 1,380개 지점·일 모두 48개의 시간대가 빠짐없이 포함되었다.
+여기서 `GPM_d`는 KST 기준 날짜 d의 GPM-IMERG 일강수량(mm), `R_{d,j}`는 해당 날짜의 j번째 30분 간격 강수율(mm/hr)이다. 각 강수율에 0.5시간을 곱해 48개를 합산하였다. 공통 통합자료의 `half_hour_count`를 확인한 결과, 1,380개 지점·일 모두 48개의 시간대가 빠짐없이 포함되었다.
 
 *표 4.3.1. ASOS와 GPM-IMERG V07 자료의 특성 비교*
 
@@ -293,10 +293,9 @@ $$
 \mathrm{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(GPM_i-ASOS_i)^2}
 $$
 
-\[
-r = \frac{\sum_{i=1}^{n}(ASOS_i-\overline{ASOS})(GPM_i-\overline{GPM})}
-{\sqrt{\sum_{i=1}^{n}(ASOS_i-\overline{ASOS})^2\sum_{i=1}^{n}(GPM_i-\overline{GPM})^2}}
-\]
+$$
+r = \frac{\sum_{i=1}^{n}(ASOS_i-\overline{ASOS})(GPM_i-\overline{GPM})}{\sqrt{\sum_{i=1}^{n}(ASOS_i-\overline{ASOS})^2\sum_{i=1}^{n}(GPM_i-\overline{GPM})^2}}
+$$
 
 여기서 n은 관측 건수이다. 평균편차(Bias)는 양수면 과대, 음수면 과소추정을 뜻하지만 부호가 다른 편차가 상쇄될 수 있으므로 MAE·RMSE와 함께 해석하였다. RMSE는 개별 오차를 제곱하여 계산하므로, 두 자료 간 편차가 큰 관측일의 영향을 상대적으로 크게 받는다. 상관계수는 일치의 방향과 선형성만 나타내며 값의 크기가 맞는지는 알려주지 않는다. 보정 강수자료(gpm_cal_mm)를 주 분석에 사용하였으며, 비보정 강수자료(gpm_uncal_mm)에 대해서도 전체 1,380건을 대상으로 동일한 통계지표를 산출하여 보조적으로 비교하였다. 지점별·강수 규모별 편차 분석은 보정 강수자료를 기준으로 수행하였다.
 
@@ -318,9 +317,9 @@ r = \frac{\sum_{i=1}^{n}(ASOS_i-\overline{ASOS})(GPM_i-\overline{GPM})}
 
 추가로 각 강수 구간이 관측지점 전체 평균편차(Bias)에 기여하는 정도를 파악하기 위해 **강수 구간별 Bias 기여도**를 산정하였다. 산정식은 다음과 같다.
 
-\[
+$$
 C_k = \frac{n_k}{N}\times\mathrm{Bias}_k
-\]
+$$
 
 여기서 Cₖ는 해당 강수 구간의 전체 Bias 기여도(mm), nₖ는 해당 구간의 표본 수, N은 관측지점별 전체 표본 수(460건), Biasₖ는 해당 구간의 평균편차(mm)이다. 네 구간의 기여도를 합산하면 해당 관측지점의 전체 Bias와 같아지며, 이를 통해 세부목적 2에서 확인한 지점별 평균편차와 강수 규모별 편차 특성을 연결하여 분석하였다.
 
