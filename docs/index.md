@@ -634,6 +634,14 @@ ASOS 관측 일강수량이 0 mm인 구간에서 세 지점의 Bias는 모두 �
 
 또한 세 지점 모두 30 mm 이상 구간에서 MAE와 RMSE가 가장 높았다. 강수 규모별 기여도에서는 부산·창원의 30 mm 이상 구간의 음의 기여가 전체 Bias를 음수로 만드는 데 크게 작용한 반면, 울산은 30 mm 미만 구간의 양의 기여가 더 크게 나타났다. 이러한 결과를 통해 강수 규모별 편차의 변화 양상과 관측지점 간 차이를 정량적으로 확인하였다.
 
+<p align="center">
+  <img src="./figures/research_results_summary.png"
+       alt="GPM-IMERG와 ASOS 일강수량 연구결과 종합 요약"
+       style="width: 1100px; max-width: 100%; height: auto;">
+</p>
+
+*그림 6.3.5. 2020~2024년 여름철 부산·울산·창원 3개 관측지점의 GPM-IMERG와 ASOS 일강수량 비교 결과 종합. 전체 일치도 및 편차, 관측지점별 편차 특성, 강수 규모별 편차 변화와 30 mm 이상 강수 구간의 전체 Bias 기여도를 요약하였다.*
+
 ## 7. 토의 {#discussion}
 
 *작성 예정*
